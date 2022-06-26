@@ -109,3 +109,9 @@ Immediately after the [header file comment](#file-headers). We prefer these `req
 - Local modules.
 
 and each category should be sorted lexicographically by the full path.
+
+### Source Code Width
+
+Write your code to fit in 80 columns.
+
+There should be some limit to the width of the code to allow developers to have multiple files side by side in windows in a modest view. Whether you're going to choose a width limit is a bit arbitrary, but you can also choose something standard. Using 90 columns (for example) instead of 80 columns would not add any significant value and would be detrimental to code printing. Also many other projects have defaulted to 80 columns so some people have already set their editors to that (vs something else like 90 columns).
