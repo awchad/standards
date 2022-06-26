@@ -100,3 +100,12 @@ function measure_width(text, font)
 ```
 
 Do not duplicate the documentation comment in the header file and implementation file. Place documentation comments for public APIs in the header file. Documentation comments for private APIs can go to the implementation file. In any case, implementation files can include additional comments to explain implementation details as needed.
+
+### `require` Style
+
+Immediately after the [header file comment](#file-headers). We prefer these `require`s to be listed in this order:
+
+- External modules.
+- Local modules.
+
+and each category should be sorted lexicographically by the full path.
